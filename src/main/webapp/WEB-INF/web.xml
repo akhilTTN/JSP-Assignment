@@ -7,7 +7,9 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2eehttp://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
          version="2.4">
     <welcome-file-list>
-        <welcome-file>login.jsp</welcome-file>
+        <!--<welcome-file>login.jsp</welcome-file> -->
+        <!--<welcome-file>Question1.jsp</welcome-file>-->
+        <welcome-file>Question2.jsp</welcome-file>
     </welcome-file-list>
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
@@ -17,14 +19,6 @@
     <servlet-mapping>
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/reg</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>show</servlet-name>
-        <servlet-class>show</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>show</servlet-name>
-        <url-pattern>/show</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>logout</servlet-name>
@@ -37,22 +31,6 @@
     <servlet>
         <servlet-name>login</servlet-name>
         <servlet-class>login</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>blog</servlet-name>
-        <servlet-class>blog</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>blog</servlet-name>
-        <url-pattern>/blog</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>save</servlet-name>
-        <url-pattern>/save</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>save</servlet-name>
-        <servlet-class>save</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>login</servlet-name>
